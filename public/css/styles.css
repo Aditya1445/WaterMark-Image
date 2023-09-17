@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-image: url('/images/background_png.png');
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden !important;
+}
+
+.box {
+    width: 52vw;
+    padding: 5px 34px !important;
+    /* border-radius: 12px; */
+    background-color: rgb(255, 255, 255);
+    opacity: 0.875;
+    border-radius: 30px;
+    box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.24)
+        /* margin-top: 50px;*/
+}
+
+.box img {
+    margin-top: 1.25rem !important;
+}
+
+.box h1 {
+    color: rgb(50, 43, 43);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    margin-top: 1.5rem !important;
+    text-transform: capitalize;
+}
+
+.box p {
+    color: #3e2f2f;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1.5rem !important;
+    margin-bottom: 2.5rem !important;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.btn-style {
+    padding: 10px 25px !important;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 1.72rem !important;
+    letter-spacing: 1px;
+    box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.44)
+}
+
+
+.btn-style a {
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+
+}
+
+@media screen and (max-width:768px) {
+    body {
+        min-height: 100%;
+    }
+
+    .box {
+        width: 80%;
+    }
+}
+
+@media screen and (768px<width<=920px) {
+    .box {
+        width: 80%;
+    }
+}

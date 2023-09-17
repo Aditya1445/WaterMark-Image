@@ -1,0 +1,160 @@
+body {
+    min-height: 100vh;
+    overflow: hidden !important;
+}
+
+.user-details {
+    height: 70vh;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .form-body {
+    width: 70%;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-body .form-title,
+.form-body .form-subtitle {
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.form-body .form-title {
+    font-weight: bold;
+}
+
+.form-body form {
+    border-radius: 8px;
+    width: 30rem;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.27);
+}
+
+.form-control {
+    padding: 6px !important;
+}
+
+form .form-label {
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    text-transform: capitalize;
+}
+
+form .icons {
+    position: relative;
+}
+
+.icons .font-name {
+    position: absolute;
+    top: 76%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.icons #name {
+    padding-left: 45px !important;
+}
+
+.icons #email {
+    /* height:100%; */
+    padding-left: 45px !important;
+}
+
+.icons .font-mail {
+    position: absolute;
+    top: 76%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.icons #password {
+    padding-left: 45px !important;
+    padding-right:45px !important;
+}
+
+.icons .font-password {
+    position: absolute;
+    top: 76%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+.icons .show-password{
+    position: absolute;
+    top:76%;
+    transform:translateY(-50%);
+    right:10px;
+}
+.form-group #name,
+.form-group #email,
+.form-group #password {
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.form-group #email-error,
+.form-group #password-error,
+.form-group #name-error {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-style {
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-bottom: 0.72rem;
+    letter-spacing: 1px;
+    box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04)
+}
+#deleteProfile:hover{
+    background-color:#ce0e0e;
+    color:white;
+}
+#updateProfile:hover{
+    background-color: #645cff;
+}
+@media screen and (max-width:768px) {
+    body {
+        max-height: 100%;
+    }
+    .user-details {
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-container .form-body{
+        width:100%;
+        padding:18px;
+    }
+    .form-body form {
+        width: 20rem;
+        padding: 8px 12px !important;
+        border-radius: 6px;
+    }
+    .form-control {
+        padding: 5px !important;
+    }
+    .btn-style {
+        padding: 8px 13px;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 800;
+        margin-bottom: 0.52rem;
+    }
+}
